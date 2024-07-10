@@ -1,0 +1,173 @@
+/* Estilos para la clase "boton" */
+.boton {
+    background-color: #0590CC;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.boton1 {
+  background-color: #4CAF50;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 120px;
+}
+
+.panel {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 1rem;
+}
+
+/* Estilos para cada botón individual */
+#boton1 {
+    background-color: #787878;
+}
+
+#boton2 {
+    background-color: #787878;
+}
+
+#boton3 {
+    background-color: #787878;
+}
+#boton4 {
+    background-color: #787878;
+}
+#boton5 {
+  background-color: #787878;
+}
+#botonSi {
+    background-color: #787878;
+}
+#botonNo {
+    background-color: #787878;
+}
+
+
+/*=============*/
+
+.select-style {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  border: 1px solid #787878;
+}
+
+.select-style:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.select-style option {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.select-style option:hover {
+  background-color: #f0f0f0;
+  color: #666;
+}
+
+h1 {
+  text-align: center;
+}
+
+.botonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 1rem
+}
+
+.contenedorElementos {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+#userForm {
+  max-width: 900px;
+}
+
+.mensajeExito {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid green;
+  border-radius: 5px;
+  background-color: rgba(0, 128, 0, 0.2);
+  width: 300px;
+}
+
+.mensajeError {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: red;
+  width: 300px;
+  color: white;
+}
+
+.centrado {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.centrado1 {
+  display: inline;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Estilos para la gráfica */
+#grafica {
+  max-height: 300px;
+  border: 1px solid #ddd;
+}
+
+#super {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 55vh;
+}
+
+
+.graficas-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+.grafica {
+  max-width: 300px;
+  max-height: 300px;
+  border: 1px solid #ddd;
+}

@@ -1,0 +1,276 @@
+{
+  "personas": [
+    {
+      "cedula": "11111111",
+      "nombre": "11111111",
+      "apellido": "11111111",
+      "edad": 19,
+      "telefono": "11111111",
+      "observacion": "alto gafo",
+      "sexo": "M",
+      "importante": "No",
+      "jornada": [
+        {
+          "fecha": "2024-07-08T11:25:13.885Z",
+          "facilitador": "zulma",
+          "tipo": "zumba"
+        }
+      ]
+    },
+    {
+      "cedula": "22222222",
+      "nombre": "22222222",
+      "apellido": "22222222",
+      "edad": 7,
+      "telefono": "22222222",
+      "observacion": "carajito bajito",
+      "sexo": "F",
+      "importante": "Si",
+      "jornada": [
+        {
+          "fecha": "2024-07-08T11:25:45.592Z",
+          "facilitador": "ronaldinho",
+          "tipo": "gancho"
+        }
+      ]
+    },
+    {
+      "cedula": "33333333",
+      "nombre": "Daniel",
+      "apellido": "perdomo",
+      "edad": 35,
+      "telefono": "123234234",
+      "observacion": "hijo gafo",
+      "sexo": "F",
+      "importante": "Si",
+      "jornada": [
+        {
+          "fecha": "2024-07-08T11:26:26.353Z",
+          "facilitador": "irving",
+          "tipo": "origami"
+        }
+      ]
+    },
+    {
+      "cedula": "27444444",
+      "nombre": "dani",
+      "apellido": "cuki",
+      "edad": 67,
+      "telefono": "123456789",
+      "observacion": "pringles",
+      "sexo": "F",
+      "importante": "No",
+      "jornada": [
+        {
+          "fecha": "2024-07-08T11:27:11.144Z",
+          "facilitador": "felps",
+          "tipo": "piscina"
+        }
+      ]
+    },
+    {
+      "cedula": "987455132",
+      "nombre": "Santiago",
+      "apellido": "Rivera",
+      "edad": 15,
+      "telefono": "14725839",
+      "observacion": "rodilla jodida",
+      "sexo": "F",
+      "importante": "No",
+      "jornada": [
+        {
+          "fecha": "2024-07-08T11:27:59.214Z",
+          "facilitador": "ronaldinho",
+          "tipo": "gancho"
+        }
+      ]
+    },
+    {
+      "cedula": "838388383",
+      "nombre": "alfredo",
+      "apellido": "diestefano",
+      "edad": 97,
+      "telefono": "741236589",
+      "observacion": "hala madrid",
+      "sexo": "M",
+      "importante": "Si",
+      "jornada": [
+        {
+          "fecha": "2024-07-08T11:28:45.533Z",
+          "facilitador": "zulma",
+          "tipo": "zumba"
+        }
+      ]
+    },
+    {
+      "cedula": "122323345",
+      "nombre": "el acabado",
+      "apellido": "el que lo critica",
+      "edad": 33,
+      "telefono": "951324678",
+      "observacion": "travesañooooooo",
+      "sexo": "F",
+      "importante": "Si",
+      "jornada": [
+        {
+          "fecha": "2024-07-08T11:29:35.938Z",
+          "facilitador": "zulma",
+          "tipo": "zumba"
+        }
+      ]
+    },
+    {
+      "cedula": "30655946",
+      "nombre": "Jesus",
+      "apellido": "Rodriguez",
+      "edad": 19,
+      "telefono": "04149927314",
+      "observacion": "bello, esbelto, inteligente, atractivo",
+      "sexo": "M",
+      "importante": "Si",
+      "jornada": [
+        {
+          "fecha": "2024-07-08T11:30:46.824Z",
+          "facilitador": "ronaldinho",
+          "tipo": "gancho"
+        }
+      ]
+    },
+    {
+      "cedula": "111",
+      "nombre": "111",
+      "apellido": "111",
+      "edad": 1,
+      "telefono": "11",
+      "observacion": "",
+      "sexo": "M",
+      "importante": "No",
+      "jornada": [
+        {
+          "fecha": "2024-07-08T19:37:59.037Z",
+          "facilitador": "ruiz",
+          "tipo": "cocina"
+        }
+      ]
+    },
+    {
+      "cedula": "1",
+      "nombre": "1",
+      "apellido": "1",
+      "edad": 1,
+      "telefono": "1",
+      "observacion": "",
+      "sexo": "M",
+      "importante": "No",
+      "jornada": [
+        {
+          "fecha": "2024-07-08T19:39:42.805Z",
+          "facilitador": "gatulius",
+          "tipo": "pachanga"
+        }
+      ]
+    },
+    {
+      "cedula": "789",
+      "nombre": "samuel",
+      "apellido": "rojas",
+      "edad": 17,
+      "telefono": "1",
+      "observacion": "",
+      "sexo": "M",
+      "importante": "No",
+      "jornada": [
+        {
+          "fecha": "2024-07-08T21:22:17.681Z",
+          "facilitador": "irving",
+          "tipo": "origami"
+        }
+      ]
+    },
+    {
+      "cedula": "56733",
+      "nombre": "samuelito",
+      "apellido": "loco",
+      "edad": 11,
+      "telefono": "5",
+      "observacion": "",
+      "sexo": "F",
+      "importante": "Si",
+      "jornada": [
+        {
+          "fecha": "2024-07-08T21:22:39.563Z",
+          "facilitador": "gatulius",
+          "tipo": "pachanga"
+        }
+      ]
+    },
+    {
+      "cedula": "303030",
+      "nombre": "303030",
+      "apellido": "303030",
+      "edad": 30,
+      "telefono": "30303030",
+      "observacion": "303030",
+      "sexo": "M",
+      "importante": "No",
+      "jornada": [
+        {
+          "fecha": "2024-07-08T22:29:17.916Z",
+          "facilitador": "felps",
+          "tipo": "piscina"
+        }
+      ]
+    },
+    {
+      "cedula": "94984984984984",
+      "nombre": "984984984984",
+      "apellido": "984984984984",
+      "edad": 984984984,
+      "telefono": "984984984",
+      "observacion": "",
+      "sexo": "M",
+      "importante": "Si",
+      "jornada": [
+        {
+          "fecha": "2024-07-09T23:29:21.335Z",
+          "facilitador": "jerry di",
+          "tipo": "verano en paris"
+        }
+      ]
+    },
+    {
+      "cedula": "3213213213213",
+      "nombre": "321321321321",
+      "apellido": "321321321321",
+      "edad": 321321321,
+      "telefono": "2321321321321",
+      "observacion": "321321",
+      "sexo": "F",
+      "importante": "No",
+      "jornada": [
+        {
+          "fecha": "2024-07-09T23:29:40.212Z",
+          "facilitador": "jerry di",
+          "tipo": "verano en paris"
+        }
+      ]
+    },
+    {
+      "cedula": "651651654984",
+      "nombre": "654654654654",
+      "apellido": "654654654654",
+      "edad": 5454654,
+      "telefono": "65654654654",
+      "observacion": "",
+      "sexo": "M",
+      "importante": "No",
+      "jornada": [
+        {
+          "fecha": "2024-07-09T23:30:00.555Z",
+          "facilitador": "jerry di",
+          "tipo": "verano en paris"
+        }
+      ]
+    }
+  ]
+}

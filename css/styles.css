@@ -1,0 +1,291 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Gris claro */
+    color: #333; /* Color de texto principal */
+}
+
+/* Estilos para el header */
+header {
+    background-color: white; /* Pantone 123 */
+    color: black;
+    padding-top: 0.8rem;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.nav{
+    padding: 0px;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logos .img1 {
+    height: 5%;
+    width: 5%;
+}
+
+.logos .img2 {
+    display: inline-block;
+    height: 1%;
+    width: 1%;
+}
+
+.logos h1 {
+    display: inline-block;
+}
+
+/* Menú de navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #787878;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid transparent; /* Borde transparente inicial */
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #005829; /* Color de fondo al hacer hover */
+    border-color: #005829; /* Color del borde al hacer hover */
+}
+
+/* Contenido principal */
+main {
+    padding-top: 4.5rem; /* Ajuste para evitar que el contenido se superponga con el header */
+    padding-bottom: 3rem; /* Espacio inferior para evitar superposición con el footer */
+    background-color: white;
+    max-width: 100%; /* Ocupa todo el ancho disponible */
+    margin: 0 auto; /* Centra el contenido */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.bienvenido {
+    background-image: url('https://www.todosahora.com/wp-content/uploads/2021/12/image6.jpeg');
+    background-size: 100% 100%; /* Agrega esto para que la imagen se ajuste al tamaño del div */
+    /* Ocupa toda la pantalla, menos la altura de la barra de navegación */
+    height: calc(100vh - 150px);
+    /* Centra el contenido horizontalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Agrega un padding para darle espacio al contenido */
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out; /* Agregué una animación de fadeIn */
+}
+
+.text {
+  /* Agrega un efecto de movimiento genial */
+  transform: translateY(100px);
+  opacity: 0;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.text.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.text h2 {
+  /* Ajusta el tamaño del título */
+  font-size: 36px;
+  text-align: center;
+  /* Agrega un poco de espacio entre el título y el párrafo */
+  margin-bottom: 20px;
+  animation: slideIn 1s ease-in-out; /* Agregué una animación de slideIn */
+}
+
+.text p {
+  /* Ajusta el tamaño del párrafo */
+  font-size: 18px;
+  /* Agrega un poco de espacio entre líneas */
+  text-align: center;
+  line-height: 1.5;
+  animation: fadeIn 1s ease-in-out 0.5s; /* Agregué una animación de fadeIn con un delay de 0.5s */
+}
+
+.fondo-semitransparente {
+  /* Establece un fondo claro */
+  background-color: #f7f7f7;
+  /* Agrega un padding para darle espacio al contenido */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Agregué un estilo para los títulos de sección */
+.text-box-verde {
+  background: #007a33;
+  padding: 80px 0;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agregué una sombra para dar profundidad */
+  animation: fadeIn 1s ease-in-out; /* Agregué una animación de fadeIn */
+}
+
+.text-box-verde h2 {
+  margin-bottom: 30px;
+  font-size: 3rem;
+  color: #ffffff;
+  font-weight: bold; /* Agregué negrita para dar énfasis */
+  animation: slideIn 1s ease-in-out; /* Agregué una animación de slideIn */
+}
+
+.text-box-verde p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-align: justify; /* Agregué justificación de texto para una mejor lectura */
+  animation: fadeIn 1s ease-in-out 0.5s; /* Agregué una animación de fadeIn con un delay de 0.5s */
+}
+
+/* Agregué un estilo para los títulos de sección */
+.text-box-verde h2::before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #fdb913;
+  margin: 0 auto 20px;
+  animation: grow 1s ease-in-out; /* Agregué una animación de grow */
+}
+
+/* Animaciones */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes grow {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50px;
+  }
+}
+
+.text-box-amarillo {
+  background: #fdb913;
+  padding: 80px 0;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agregué una sombra para dar profundidad */
+  animation: fadeIn 1s ease-in-out 0.5; /* Agregué una animación de fadeIn */
+}
+
+.text-box-amarillo h2 {
+  margin-bottom: 30px;
+  font-size: 3rem;
+  color: black;
+  font-weight: bold; /* Agregué negrita para dar énfasis */
+  animation: slideIn 1s ease-in-out; /* Agregué una animación de slideIn */
+}
+
+.text-box-amarillo p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  color: black;
+  text-align: justify; /* Agregué justificación de texto para una mejor lectura */
+  animation: fadeIn 1s ease-in-out; /* Agregué una animación de fadeIn */
+}
+
+/* Agregué un estilo para los títulos de sección */
+.text-box-amarillo h2::before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color:#007a33 ;
+  margin: 0 auto 20px;
+  animation: grow 1s ease-in-out; /* Agregué una animación de grow */
+}
+
+/* Estilos para el formulario */
+form {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+label {
+    width: 100%;
+    margin: 0.5rem 0 0.2rem 0;
+    font-weight: bold;
+    color: #007a33; /* Pantone 356 */
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border: 1px solid #007a33; /* Pantone 356 */
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Estilos para el footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #787878; /* Pantone 123 */
+    color: white;
+    width: 100%;
+    clear: both;
+    margin-top: 2rem;
+  }
+
+/* Efecto hover para los enlaces del footer */
+footer a:hover {
+    opacity: 0.8; /* Reducción de la opacidad al hacer hover */
+    transition: opacity 0.3s ease; /* Transición suave */
+}
